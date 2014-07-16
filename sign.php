@@ -1,7 +1,7 @@
 <?php
 header('Content-Type:text/html;charset=utf-8');
 
-include 'signature.php';
+include 'rsa.php';
 
 //转换成key=value的形式
 $kv_array = array();
