@@ -26,7 +26,7 @@ openssl rsa -in rsa_private_key.pem -pubout -out rsa_public_key.pem
 
 #使用
 
-启动PHP内置Http Server
+启动PHP5.4内置Http Server
 
 ```
 php -S localhost:8000
