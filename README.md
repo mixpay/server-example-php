@@ -12,6 +12,7 @@ server-example-php
 # 运行需求
 
 1. PHP 5.4
+2. OpenSSL
 
 # 准备工作
 
