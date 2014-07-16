@@ -21,7 +21,7 @@ function sign($data) {
 
 //验证mixpay签名
 function verify($data, $sign)  {
-    //读取支付宝公钥文件
+    //读取聚易付公钥文件
     $pubKey = file_get_contents('mixpay_public_key.pem');
  
     //转换为openssl格式密钥
