@@ -43,7 +43,7 @@ php -S localhost:8000
 http://localhost:8000/sign.php?param1=value1&param2＝value2
 ```
 
-### POST /notify 
+### POST /notify.php 
 
 接收聚易付的订单通知，并且返回"success"确认码
 
